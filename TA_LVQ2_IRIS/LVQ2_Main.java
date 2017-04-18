@@ -57,9 +57,10 @@ public class LVQ2_Main {
 //        double alpha = 0.5;
 //        double theta = 0;
 //        int epoch = 20;
-        String path_training = "E:/User/Documents/NetBeansProjects/JST/Dataset/TA_LVQ2/"+training+".txt";
-        String path_testing = "E:/User/Documents/NetBeansProjects/JST/Dataset/TA_LVQ2/"+testing+".txt";
-        String path_bobot = "E:/User/Documents/NetBeansProjects/JST/Dataset/TA_LVQ2/"+bobot+".txt";
+       
+        String path_training = ; //your data training path, txt
+        String path_testing = ; //your data testing path, txt
+        String path_bobot = ; //your weight data path, txt
         
         p.set_LVQ(path_training, path_testing, path_bobot, alpha, reduksi, alpha_min, epoch);
         p.train();
